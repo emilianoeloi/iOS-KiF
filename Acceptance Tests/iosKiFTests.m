@@ -26,9 +26,13 @@
 - (void)testInputName
 {
     NSString *text = @"Vai Sabrina!";
+    
     [tester tapViewWithAccessibilityLabel:@"inputName"];
+    
     [tester  waitForSoftwareKeyboard];
+    
     [tester enterTextIntoCurrentFirstResponder:text];
+    
     [tester tapViewWithAccessibilityLabel:@"confirmButton"];
     
     [tester waitForViewWithAccessibilityLabel:@"inputName" value:text traits:UIAccessibilityTraitNone];

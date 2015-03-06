@@ -21,6 +21,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ACBD70AF1AAA35DF00406D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		ACBD70B11AAA35DF00406D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
+			remoteInfo = "KIF-OCUnit";
+		};
+		ACBD70B31AAA35DF00406D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		ACBD70B51AAA35DF00406D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		ACBD70B71AAA35DF00406D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
+			remoteInfo = "KIF Tests-OCUnit";
+		};
 		CA3290EC1AA9FB1C00D6C51F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA3290B11AA7CEB900D6C51F /* Project object */;
@@ -76,6 +111,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACBD70A71AAA35DF00406D62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBD70B01AAA35DF00406D62 /* libKIF.a */,
+				ACBD70B21AAA35DF00406D62 /* libKIF-OCUnit.a */,
+				ACBD70B41AAA35DF00406D62 /* Test Host.app */,
+				ACBD70B61AAA35DF00406D62 /* KIF Tests - XCTest.xctest */,
+				ACBD70B81AAA35DF00406D62 /* KIF Tests-OCUnit.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CA3290B01AA7CEB900D6C51F = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +283,12 @@
 			mainGroup = CA3290B01AA7CEB900D6C51F;
 			productRefGroup = CA3290BA1AA7CEB900D6C51F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ACBD70A71AAA35DF00406D62 /* Products */;
+					ProjectRef = CA32910C1AAA041800D6C51F /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CA3290B81AA7CEB900D6C51F /* iosKiF */,
@@ -243,6 +296,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ACBD70B01AAA35DF00406D62 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = ACBD70AF1AAA35DF00406D62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACBD70B21AAA35DF00406D62 /* libKIF-OCUnit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKIF-OCUnit.a";
+			remoteRef = ACBD70B11AAA35DF00406D62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACBD70B41AAA35DF00406D62 /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = ACBD70B31AAA35DF00406D62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACBD70B61AAA35DF00406D62 /* KIF Tests - XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests - XCTest.xctest";
+			remoteRef = ACBD70B51AAA35DF00406D62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACBD70B81AAA35DF00406D62 /* KIF Tests-OCUnit.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests-OCUnit.octest";
+			remoteRef = ACBD70B71AAA35DF00406D62 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CA3290B71AA7CEB900D6C51F /* Resources */ = {
@@ -489,6 +580,7 @@
 				CA3290EF1AA9FB1C00D6C51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

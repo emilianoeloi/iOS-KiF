@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E200A2AF-7031-4E00-AF3F-E9EA5B4D7051</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iosKiF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10265E242415D473A6A613214DB7AC3EE3D43F93</key>
+		<string>https://github.com/kif-framework/KIF.git</string>
+		<key>506E16F06DA2AA46D33C7F81B3D8A51347F9F8DB</key>
+		<string>https://github.com/emilianoeloi/iOS-KiF</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iosKiF.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10265E242415D473A6A613214DB7AC3EE3D43F93</key>
+		<string>../..Frameworks/KIF/</string>
+		<key>506E16F06DA2AA46D33C7F81B3D8A51347F9F8DB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/emilianoeloi/iOS-KiF</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>506E16F06DA2AA46D33C7F81B3D8A51347F9F8DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>506E16F06DA2AA46D33C7F81B3D8A51347F9F8DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-KiF</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10265E242415D473A6A613214DB7AC3EE3D43F93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KIF</string>
+		</dict>
+	</array>
+</dict>
+</plist>
