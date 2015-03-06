@@ -3,7 +3,7 @@
 Implementação do Framework de teste KiF
 
 #Screenshots
-<img src="https://raw.githubusercontent.com/emilianoeloi/ios-kif/master/docs/screnshot.png">
+<img src="https://raw.githubusercontent.com/emilianoeloi/ios-kif/master/docs/project.png">
 <img src="https://raw.githubusercontent.com/emilianoeloi/ios-kif/master/docs/tests.png">
 
 #Referência
