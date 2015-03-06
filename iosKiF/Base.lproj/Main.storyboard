@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,95 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-bG-HJq">
+                                <rect key="frame" x="191" y="242" width="134" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="namePage"/>
+                                <state key="normal" title="Ir pra Tela de Nome">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XE7-DU-9o9" kind="show" id="dMa-yd-AAP"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vAt-bG-HJq" secondAttribute="centerX" constant="42" id="NuI-15-A7n"/>
+                            <constraint firstAttribute="centerY" secondItem="vAt-bG-HJq" secondAttribute="centerY" constant="43" id="td7-jn-Lzl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Name-->
+        <scene sceneID="Ho4-u9-LBw">
+            <objects>
+                <viewController title="Name" id="XE7-DU-9o9" customClass="NameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CL5-YZ-3YA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qja-Xc-Jqj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2xI-8c-iu1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tela de Nome" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmC-iE-4xi">
+                                <rect key="frame" x="233" y="57" width="106" height="21"/>
+                                <accessibility key="accessibilityConfiguration" label="title"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lhC-j1-1r8">
+                                <rect key="frame" x="16" y="86" width="568" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="inputName"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SL-bK-T7i">
+                                <rect key="frame" x="32" y="28" width="30" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="closeButton"/>
+                                <state key="normal" title="Sair">
+                                    <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="close:" destination="XE7-DU-9o9" eventType="touchUpInside" id="V1A-Ed-Xi8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9R-HE-RjW">
+                                <rect key="frame" x="266" y="124" width="68" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="confirmButton"/>
+                                <state key="normal" title="Confirmar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmNAme:" destination="XE7-DU-9o9" eventType="touchUpInside" id="327-JM-xkS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7SL-bK-T7i" firstAttribute="top" secondItem="CL5-YZ-3YA" secondAttribute="bottom" constant="8" id="FqU-NY-FmA"/>
+                            <constraint firstItem="s9R-HE-RjW" firstAttribute="top" secondItem="lhC-j1-1r8" secondAttribute="bottom" constant="8" symbolic="YES" id="JpH-sa-VAb"/>
+                            <constraint firstItem="7SL-bK-T7i" firstAttribute="leading" secondItem="2xI-8c-iu1" secondAttribute="leadingMargin" constant="16" id="KUw-lM-KJ5"/>
+                            <constraint firstAttribute="centerX" secondItem="AmC-iE-4xi" secondAttribute="centerX" constant="14" id="NsH-4q-HQD"/>
+                            <constraint firstItem="lhC-j1-1r8" firstAttribute="leading" secondItem="2xI-8c-iu1" secondAttribute="leadingMargin" id="Okr-7U-vEE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lhC-j1-1r8" secondAttribute="trailing" id="ag6-5u-f5L"/>
+                            <constraint firstItem="lhC-j1-1r8" firstAttribute="top" secondItem="AmC-iE-4xi" secondAttribute="bottom" constant="8" symbolic="YES" id="o75-NR-gFA"/>
+                            <constraint firstItem="lhC-j1-1r8" firstAttribute="centerX" secondItem="s9R-HE-RjW" secondAttribute="centerX" id="wVv-vc-qFP"/>
+                            <constraint firstItem="AmC-iE-4xi" firstAttribute="top" secondItem="CL5-YZ-3YA" secondAttribute="bottom" constant="37" id="zZC-xG-bFb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inputName" destination="lhC-j1-1r8" id="jaF-T0-nU0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FVv-uf-Ze6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1106" y="498"/>
         </scene>
     </scenes>
 </document>

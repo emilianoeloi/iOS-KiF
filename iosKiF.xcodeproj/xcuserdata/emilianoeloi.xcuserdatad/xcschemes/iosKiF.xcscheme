@@ -34,6 +34,20 @@
                ReferencedContainer = "container:iosKiF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA3290E51AA9FB1C00D6C51F"
+               BuildableName = "Acceptance Tests.xctest"
+               BlueprintName = "Acceptance Tests"
+               ReferencedContainer = "container:iosKiF.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "CA3290D11AA7CEB900D6C51F"
                BuildableName = "iosKiFTests.xctest"
                BlueprintName = "iosKiFTests"
+               ReferencedContainer = "container:iosKiF.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA3290E51AA9FB1C00D6C51F"
+               BuildableName = "Acceptance Tests.xctest"
+               BlueprintName = "Acceptance Tests"
                ReferencedContainer = "container:iosKiF.xcodeproj">
             </BuildableReference>
          </TestableReference>
