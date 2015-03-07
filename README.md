@@ -1,5 +1,7 @@
 # ios KIF
 
+[![Build Status](https://travis-ci.org/emilianoeloi/iOS-KiF.svg?branch=master)](https://travis-ci.org/emilianoeloi/iOS-KiF)
+
 Implementação do Framework de teste KiF
 
 #Screenshots
