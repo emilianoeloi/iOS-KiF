@@ -43,8 +43,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA3290E51AA9FB1C00D6C51F"
-               BuildableName = "Acceptance Tests.xctest"
-               BlueprintName = "Acceptance Tests"
+               BuildableName = "Acceptance_Tests.xctest"
+               BlueprintName = "Acceptance_Tests"
                ReferencedContainer = "container:iosKiF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -71,8 +71,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA3290E51AA9FB1C00D6C51F"
-               BuildableName = "Acceptance Tests.xctest"
-               BlueprintName = "Acceptance Tests"
+               BuildableName = "Acceptance_Tests.xctest"
+               BlueprintName = "Acceptance_Tests"
                ReferencedContainer = "container:iosKiF.xcodeproj">
             </BuildableReference>
          </TestableReference>

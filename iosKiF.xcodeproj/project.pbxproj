@@ -236,9 +236,9 @@
 			productReference = CA3290B91AA7CEB900D6C51F /* iosKiF.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA3290E51AA9FB1C00D6C51F /* Acceptance Tests */ = {
+		CA3290E51AA9FB1C00D6C51F /* Acceptance_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA3290F01AA9FB1C00D6C51F /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildConfigurationList = CA3290F01AA9FB1C00D6C51F /* Build configuration list for PBXNativeTarget "Acceptance_Tests" */;
 			buildPhases = (
 				CA3290E21AA9FB1C00D6C51F /* Sources */,
 				CA3290E31AA9FB1C00D6C51F /* Frameworks */,
@@ -249,7 +249,7 @@
 			dependencies = (
 				CA3290ED1AA9FB1C00D6C51F /* PBXTargetDependency */,
 			);
-			name = "Acceptance Tests";
+			name = Acceptance_Tests;
 			productName = "Acceptance Tests";
 			productReference = CA3290E61AA9FB1C00D6C51F /* Acceptance Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -292,7 +292,7 @@
 			projectRoot = "";
 			targets = (
 				CA3290B81AA7CEB900D6C51F /* iosKiF */,
-				CA3290E51AA9FB1C00D6C51F /* Acceptance Tests */,
+				CA3290E51AA9FB1C00D6C51F /* Acceptance_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA3290F01AA9FB1C00D6C51F /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+		CA3290F01AA9FB1C00D6C51F /* Build configuration list for PBXNativeTarget "Acceptance_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA3290EE1AA9FB1C00D6C51F /* Debug */,
